@@ -10,19 +10,20 @@
    <!--font awesome cdn-->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
 <!--banner section-->
-<div class="parent-div flex justify-between  max-w-[1250px]  border-2 border-red-500 min-h-[280px] container mx-auto">
+<div class="parent-div flex flex-col md:flex-row justify-between min-h-[200px]  max-w-[1250px] mx-auto mt-[20px]">
     <div class="left-div ">
         <h1 class="text-[80px] font-bold">It's good<br>
 tea time at The<br>Tea House</h1>
 <p class="text-[18px]">Tea and Botanical Solutions Supplier Give Optimum<br>Satisfaction To Your Taste Buds.</p>
-<button class="w-[200px] h-[64px] text-xl text-white bg-red-500 rounded-lg my-8">Explore More</button>
+<button class="w-[200px] h-[64px] text-xl text-white bg-gradient-to-r from-[#ff8938] to-[#ff0000] rounded-lg my-8"><span>Explore More</span><span><i class="fa-solid fa-arrow-right -rotate-45"></i></span></button>
 </div>
 
-    <div class="right-div">
-       <img  src="images/banner.png" class="" alt="">
-       <div class=" w-[255px] h-[100px] flex items-center rounded-lg shadow-lg">
+    <div class="right-div relative">
+       <img  src="images/banner.png" class="relative top-[100px]" alt="">
+       <div class=" w-[255px] h-[100px] flex items-center rounded-lg shadow-lg bg-white absolute left-[90px] ">
         <span class="text-4xl"><i class="fa-solid fa-star"></i></span>
         <div class="ml-4">
             <p class="text-4xl font-bold">5.00</p>
@@ -32,5 +33,35 @@ tea time at The<br>Tea House</h1>
 
     </div>
 </div>
+
+<!-- feature section-->
+ <section class="min-h-[200px]  max-w-[1250px] mx-auto mt-[130px]">
+ <h1 class="text-5xl text-center">Our Featured Products</h1>
+ <p class="text-center mt-[20px] text-[#777777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br>by injected humour, or randomised words which don't look even slightly believable. </p>
+ <div class="featured_parent flex flex-col md:flex-row mt-[80px] gap-[24px] ">
+<div class=" featured_card w-[267px] h-[391px] bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] rounded-2xl ">
+    <img src="images/tea-1.png" class="ml-[60px] mt-[25px]" alt="">
+    <h1 class="font-bold text-xl text-center mt-[25px]">Milk Tea</h1>
+    <p class="text-center mt-[25px] text-[#777777]">Creamer could be replaced<br>by fresh milk</p>
+</div>
+<div class=" featured_card w-[267px] h-[391px] bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] rounded-2xl">
+    <img src="images/tea-2.png" class="ml-[60px] mt-[25px]" alt="">
+    <h1 class="font-bold text-xl text-center mt-[25px]">Black Tea</h1>
+    <p class="text-center mt-[25px] text-[#777777]">Creamer could be replaced<br>by fresh milk</p>
+</div>
+<div class=" featured_card w-[267px] h-[391px] bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] rounded-2xl">
+    <img src="images/tea-3.png" class="ml-[60px] mt-[25px]" alt="">
+    <h1 class="font-bold text-xl text-center mt-[25px]">Lemon Tea</h1>
+    <p class="text-center mt-[25px] text-[#777777]">Creamer could be replaced<br>by fresh milk</p>
+</div>
+<div class=" featured_card w-[267px] h-[391px] bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] rounded-2xl">
+    <img src="images/tea-4.png" class="ml-[60px] mt-[25px]" alt="">
+    <h1 class="font-bold text-xl text-center mt-[25px]">Green Tea</h1>
+    <p class="text-center mt-[25px] text-[#777777]">Creamer could be replaced<br>by fresh milk</p>
+</div>
+
+ </div>
+
+ </section>
 </body>
 </html>
